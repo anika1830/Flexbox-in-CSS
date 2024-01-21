@@ -1,0 +1,48 @@
+                                      Flexbox in CSS
+                                         Assignment
+
+Ques 1:- Describe the main difereces betwee the CSS Flexbox layout model and the CSS Grid layout model. When
+would you choose to use one over the other?
+Ans 1:- The main differene between the Flexbox and CSS Grid layout models lies in their layout strategies and how
+they handte the arrangement of elements:
+
+flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for 
+two-dimensional layout - rows, and columns at the same time. 
+
+chossing between Flexbox and CSS Grid depends on your specific layout requirement.
+
+You might choose Flexbox when you need to arrannge items along a single axis, For example , when creating 
+navigation bars , header/footer layouts , or aligning elements within a container.  
+
+You might choose CSS Grid when you need to create more complex, two dimmensional layouts with row and columns.
+
+In some case you may combine both Flexbox and CSS Grid with a single layout to leverage the strength of each
+model for differents parts of your webpage.
+
+Ques 2:- Explain the role of the following key properties in the Flexbox Layout model
+1. Justify - content
+2. align - items
+3. gap
+4. flex- direction
+5. flex- wrap  
+
+Ans 2:- 1. Justify-content:- se justify-content utilities on flexbox containers to change the alignment of flex items
+on the main axis (the x-axis to start, y-axis if flex-direction: column). Choose from start (browser default), end, 
+center, between, or around.
+
+2. align-items:- Use align-items utilities on flexbox containers to change the alignment of flex items on the cross axis
+(the y-axis to start, x-axis if flex-direction: column). Choose from start, end, center, baseline, or stretch
+ (browser default).
+
+3. gap:- The gap property is used to define the space between flex items in both directions, both along the main
+axis and the cross axis. It's often applied oG the flex container itself. It simplifies spacing and creates
+consistent gaps between items without needing to apply margins to individual items.
+
+4. flex-direction:- The flex-direction property determines the direction in which flex items are placed within the
+flex container. It defines the main axis and, conseuently, the layout flex. It can have values such as row,
+row-reverse, column, or column-reverse.
+
+5. flex-wrap:- The flex-wrap property controls whether flex items are allowed to wrap onto multiple lines (new
+rows or columns) within the flex container when they don't fit along the main axis. It accepts vlaues like
+nowrap, wrap, and wrap-reverse.
+
